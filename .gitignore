@@ -1,0 +1,87 @@
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.sqlite3
+*.mo
+
+# Local environment settings
+.env
+
+# Secret files (e.g., settings with secrets, local configurations)
+*.secret
+
+# Static files
+/static/
+staticfiles/
+static_cdn/
+
+# Media files
+/media/
+media_cdn/
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Virtual environments
+venv/
+env/
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Profiling data
+*.prof
+
+# MyPy
+.mypy_cache/
+
+# pytest
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (if using npm/yarn for frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup and temporary files
+*.bak
+*.swp
+*.tmp
+*.~*
+*.orig
+
+# Logs and temporary data
+*.log
+logs/
+
+# Build artifacts
+*.egg
+*.egg-info/
+dist/
+build/
